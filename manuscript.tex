@@ -6,7 +6,7 @@
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amssymb}
-\usepackage{hyperref}
+%\usepackage{hyperref}
 \usepackage{url}
 
 \usepackage{lineno}
@@ -26,7 +26,7 @@
 \filename{Tellus\_Perspective\_Salter}
 \def\MSFirstPage{\pageref{startPage_Label}}
 \def\MSLastPage{\pageref{endPage_Label}}
-\graphicspath{{./Images/}}
+\graphicspath{{./images/}}
 \label{startPage_Label}
 
 % --- Article front matter ---
@@ -75,13 +75,20 @@ In what follows, I revisit how research published in \textit{Tellus} has shaped 
 
 Given the breadth of SSA research today, it is easy to overlook how the field began and how pivotal early \textit{Tellus} papers were in defining its direction. More than 150 years have passed since \cite{Beck1819}, \cite{Sigerson1870}, and \cite{aitken1881} first suggested that the ocean could itself be a source of atmospheric particles. Their ideas began to gain wider scientific attention only after \cite{jacobs1937} identified air bubbles as the mechanism capable of producing sea-salt aerosol. By the mid-twentieth century, the prevailing view held that bursting bubbles at the sea surface were the primary source of marine aerosol, but the detailed physics of droplet formation remained unresolved.
 
-This gap was addressed by Kientzler, Arons, Blanchard, and Woodcock (\citeyear{Kientzler1954}) in their landmark \textit{Tellus} paper,\textit{Photographic Investigation of the Projection of Droplets by Bubbles Bursting at a Water Surface}. Using still photographs with $\sim 30~\mu\text{s}$ exposures and high-speed motion pictures (~3,000 fps), they captured the collapse of a bubble cavity and the formation of a narrow jet capable of ejecting droplets several diameters above the surface (see Figure~\ref{fig:kientzler_bubble_burst}). Upon evaporation, these droplets yielded salt residues matching the smallest particles observed in marine air \citep{woodcock1952}, providing the first direct mechanistic link between bubble bursting and atmospheric sea-salt aerosol.
+This gap was addressed by Kientzler, Arons, Blanchard, and Woodcock (\citeyear{Kientzler1954}) in their landmark \textit{Tellus} paper, \textit{Photographic Investigation of the Projection of Droplets by Bubbles Bursting at a Water Surface}. Using still photographs with $\sim 30~\mu\text{s}$ exposures and high-speed motion pictures (~3,000 fps), they captured the collapse of a bubble cavity and the formation of a narrow jet capable of ejecting droplets several diameters above the surface (see Figure~\ref{fig:kientzler_bubble_burst}). Upon evaporation, these droplets yielded salt residues matching the smallest particles observed in marine air \citep{woodcock1952}, providing the first direct mechanistic link between bubble bursting and atmospheric sea-salt aerosol.
+
+%\begin{figure}[tb]
+%	\processfigure
+%	{\includegraphics[width=\textwidth]{Kientzler_Figure_2.pdf}}
+%	{High-speed motion pictures of bubble bursting dynamics, reproduced from \citet{Kientzler1954} under CC~BY (\url{https://doi.org/10.3402/tellus.v6i1.8717}). Sequence shows 1.5 mm diameter bubbles bursting in fresh water with a clean surface, captured horizontally through a glass microscope slide. The images were taken at 3,340 frames per second, revealing the progressive stages of bubble cavity collapse and jet formation. The stationary droplets visible in the image sequence are droplets adhering to the inner surface of the glass observation window, produced by earlier bubble-bursting events.\label{fig:kientzler_bubble_burst}}
+%	{}
+%\end{figure}
 
 \begin{figure}[tb]
-	\processfigure
-	{\includegraphics[width=\textwidth]{images/Kientzler_Figure_2.pdf}}
-	{High-speed motion pictures of bubble bursting dynamics, reproduced from \citet{Kientzler1954} under CC~BY (\url{https://doi.org/10.3402/tellus.v6i1.8717}). Sequence shows 1.5 mm diameter bubbles bursting in fresh water with a clean surface, captured horizontally through a glass microscope slide. The images were taken at 3,340 frames per second, revealing the progressive stages of bubble cavity collapse and jet formation. The stationary droplets visible in the image sequence are droplets adhering to the inner surface of the glass observation window, produced by earlier bubble-bursting events.\label{fig:kientzler_bubble_burst}}
-	{}
+	\centering
+	\includegraphics[width=\linewidth]{Kientzler_Figure_2.pdf}
+	\caption{High-speed motion pictures of bubble bursting dynamics, reproduced from \citet{Kientzler1954} under CC~BY (\url{https://doi.org/10.3402/tellus.v6i1.8717}). Sequence shows 1.5 mm diameter bubbles bursting in fresh water with a clean surface, captured horizontally through a glass microscope slide. The images were taken at 3,340 frames per second, revealing the progressive stages of bubble cavity collapse and jet formation. The stationary droplets visible in the image sequence are droplets adhering to the inner surface of the glass observation window, produced by earlier bubble-bursting events.}
+	\label{fig:kientzler_bubble_burst}
 \end{figure}
 
 
@@ -95,11 +102,18 @@ Although Kientzler et al. primarily documented jet-drop formation, subsequent wo
 
 Although the work of \cite{Kientzler1954} clarified the physics of jet-drop formation, it left open the question of how smaller droplets arise during film rupture. Their experiments primarily captured jet drops with radii of about 20--200 $\mu$m, large enough to settle quickly and therefore unable to explain the abundant submicron sea-salt aerosol observed in the marine boundary layer. This gap was addressed in another seminal \textit{Tellus} paper, \cite{Blanchard1957}, \textit{Bubble Formation and Modification in the Sea and Its Meteorological Significance}. Their study extended the mechanistic framework by examining natural bubble-generation processes such as whitecaps, rainfall, and gas supersaturation, and by analysing how bubble dissolution and modification affect the resulting droplet-size distribution (see Figure~\ref{fig:blanchard_bubble_size}).
 
+%\begin{figure}[tb]
+%\processfigure
+%{\includegraphics[width=\textwidth]{Blanchard_Figure_4_redrawn.pdf}}
+%{Bubble concentration (cc$^{-1}$ per 100 $\mu$m band width) in seawater produced by breaking waves. Shaded regions show bubble concentrations from different wave conditions: breaking waves on the open sea (Region A) and waves breaking over a rock (Region B), demonstrating the variability in bubble production mechanisms. Redrawn from data digitised from Figure 4 of \citet{Blanchard1957} under CC~BY (\url{https://doi.org/10.3402/tellus.v9i2.9094}).\label{fig:blanchard_bubble_size}}
+%{}
+%\end{figure}
+
 \begin{figure}[tb]
-\processfigure
-{\includegraphics[width=\textwidth]{images/Blanchard_Figure_4_redrawn.pdf}}
-{Bubble concentration (cc$^{-1}$ per 100 $\mu$m band width) in seawater produced by breaking waves. Shaded regions show bubble concentrations from different wave conditions: breaking waves on the open sea (Region A) and waves breaking over a rock (Region B), demonstrating the variability in bubble production mechanisms. Redrawn from data digitised from Figure 4 of \citet{Blanchard1957} under CC~BY (\url{https://doi.org/10.3402/tellus.v9i2.9094}).\label{fig:blanchard_bubble_size}}
-{}
+	\centering
+	\includegraphics[width=\linewidth]{Blanchard_Figure_4_redrawn.pdf}
+	\caption{Bubble concentration (cc$^{-1}$ per 100 $\mu$m band width) in seawater produced by breaking waves. Shaded regions show bubble concentrations from different wave conditions: breaking waves on the open sea (Region A) and waves breaking over a rock (Region B), demonstrating the variability in bubble production mechanisms. Redrawn from data digitised from Figure 4 of \citet{Blanchard1957} under CC~BY (\url{https://doi.org/10.3402/tellus.v9i2.9094}).}
+	\label{fig:blanchard_bubble_size}
 \end{figure}
 
 
@@ -157,7 +171,7 @@ Comparative studies have been central to this effort. They allow systematic eval
 
 The mechanistic perspective enabled by these systems has further refined the understanding of the inorganic fraction of SSA. Divalent cations such as calcium and magnesium have been shown to be preferentially incorporated into smaller droplets, suggesting subtle chemical fractionation during bubble bursting, an echo of the fractionation debates that animated the field in the 1960s and 1970s \citep{Salter2016,Jayarathne2016}. Whereas earlier investigators debated whether such effects reflected artefacts or bubble dynamics, modern analytical techniques have confirmed that they arise from genuine interfacial processes \citep{Schill2018,Carter2021}. These results have broadened SSA research from physical descriptions toward molecular-level understanding of aerosol formation.
 
-At the same time, studies have begun to re-examine the physical parameters beyond mere wind speed. Sea-surface temperature has emerged as a particularly complex control on SSA production: field observations and models often indicate a positive correlation between temperature and aerosol concentration \citep{Liu2021}, whereas laboratory studies reveal more nuanced behaviour \citep{Salter2014}. This likely reflects the way temperature modifies seawater properties such as viscosity, density, and surface tension, and the multiple ways in which these properties influence bubble rise, film rupture, and droplet formation. As a result, the temperature dependence of SSA production varies strongly among particle size classes, with contrasting responses often observed for submicron and supermicron SSA. For example, some studies report increased number concentrations for larger particles but decreases for smaller ones as seawater temperature rises \citep{Salter2015}. Other physical parameters, including wave state and the presence of organic surfactants, also influence bubble lifetime and aerosol yield. Collectively, these findings have built a bridge linking physical generation mechanisms, chemical partitioning, and biological modulation, laying the foundation for the modern synthesis that now connects microscale laboratory studies to global climate relevance.
+At the same time, these experimental approaches have enabled researchers to move beyond wind speed alone and isolate physical controls that are difficult to disentangle in the field. Sea-surface temperature is one important example, because its influence on SSA production appears to depend on particle size, generation mechanism, and seawater composition \citep{Salter2014,Salter2015,Forestieri2018}. Together with wave state and the presence of organic surfactants, such physical controls affect bubble lifetime, droplet formation, and aerosol yield. Collectively, these findings have built a bridge linking physical generation mechanisms, chemical partitioning, and biological modulation, laying the foundation for the modern synthesis that now connects microscale laboratory studies to global climate relevance.
 
 \section{Critical Uncertainties for Climate Applications}
 
@@ -175,7 +189,7 @@ These unresolved questions now take on heightened significance in the context of
 \theendnotes
 
 \begin{acknowledgements}[Acknowledgements]
-The author thanks the editors of \textit{Tellus} for the invitation to contribute this Perspective article. The author also thanks Dr Julika Zinke and Prof. Paul Zieger for their thoughtful comments on the manuscript.
+The author thanks the editors of \textit{Tellus} for the invitation to contribute this Perspective article. The author also thanks Dr. Julika Zinke and Prof. Paul Zieger for their thoughtful comments on the manuscript.
 \end{acknowledgements}
 
 \begin{fundinginfo}[Funding information]
